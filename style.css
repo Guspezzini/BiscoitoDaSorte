@@ -15,3 +15,17 @@ font-size: 2.5rem;
 
 
 }
+a {
+    text-color: transparent; /* Escolha a cor abaixo */
+    
+    text-decoration: none;   /* Remove o sublinhado */
+}
+.instagram {
+    color: purple;        /* Muda a cor do texto (ex: rosa do Instagram) */
+    text-decoration: none; /* Tira o tracinho de baixo */
+}
+
+/* Opcional: Efeito ao passar o mouse por cima */
+.instagram:hover {
+    color: green;        /* Deixa um pouco mais escuro quando o mouse passa */
+}
